@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="code.css" media="screen">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <title>Summer Code</title>
+</head>
+<body>
+    <style>
+        .ma{
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 18px;
+        }
+        .ma span{
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+
+        }
+        .ma span::after{
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            transition: 0.5s;
+            top: 0;
+        }
+        .ma:hover span{
+            padding-right: 25px;
+            color: #FFC727;
+        }
+        .ma:hover span::after{
+            opacity: 1;
+            right: 0;
+
+        }
+
+        .dd{
+            position: relative;
+            display: inline-block;
+        }
+        .dd-content{
+            position: absolute;
+            display: none;
+            width: 300px;   
+        }
+        .dd:hover> .dd-content{
+            display: block;
+        }
+        .dd-button{
+            background-color: #FFC727;
+            border-color: white;
+            height: 25px;
+        }
+    </style>
+    <div class="top">
+        <div class="nav">
+            <a href="#apropos" class="ma"> <span>A PROPOS</span> </a>
+            <a href="#activite" class="ma"><span>ACTIVITE</span> </a>
+            <a href="#competence" class="ma"><span>CURRICULUM</span></a>
+            <a href="#forme" class="ma"><span>RECRUTEMENT</span></a>
+        </div>    
+        <div class="nav1">
+            <a href=""><img src="Image/o.jpg" alt="" class="o">
+                <h1 class="text"> <span class="hit">n<span style="color: #FFC727;">e </span> h<span style="color: #FFC727;">i</span>t</h1></a>
+        </div>
+    </div>
+    <header>
+        <img src="Developer activity.gif" alt="" class="gif">
+        <img src="Online world.gif" alt="" class="gif2">
+        <div class="arnimarrière">
+            <div class="cercle"></div>
+            <div class="cercle"></div>
+            <div class="cercle"></div>
+            <div class="cercle"></div>
+            <div class="cercle"></div>
+            <div class="cercle"></div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <main>
+        <section id="apropos">
+             
+            <div class="equipe">
+                <h2>A propos: </h2>
+                <p>One-Hit est une petite equipe de developpeur novice de l'Ecole de Management et d'Innovation Technologique, Cet site vise
+                    à présenter notre équipe est nos exploit en tant que développeur. <br><br>
+                    L' équipe compte actuellement deux développeur. <br> <br>
+                    <div class="dd">
+                        <button class="dd-button">Notre But ►</button> <br> <br>
+                        <span class="dd-content">Notre but est d'atteindre un niveau de developpeur proffessionel et de crée un entreprise où
+                            le numérique est persistant.
+                            
+                        </span>
+
+                    </div>
+                    
+                </p> 
+            </div>
+            
+
+            <div class="membre">
+                
+                <img src="Image/Mami.jpg" alt="" class="mami">
+                <p> <b>RAHARIVONY Mamilalaina Joel</b>  <br> <br>
+                Etudiant de l'Ecole de Management <br> et d'Innovation Technologique <br> en filière de Developpement 
+                d'Application <br> Internet et Intranet 
+                en première année de Licence (L1). <br> <br>
+                <i class="fa-solid fa-envelope"></i> joelthegentle@gmail.com <br>
+                <i class="fa-solid fa-phone"></i> 0343694637
+            </p>
+                
+                
+            </div>
+            <div class="membre">
+                <img src="Image/Bogila.jpg" alt="" class="bogila">
+                <p> <b> NAMBININTSOA Nourah Michael</b> <br> <br>
+                Etudiant de l'Ecole de Management <br> et d'Innovation Technologique <br> en filière de Developpement 
+                d'Application <br> Internet et Intranet 
+                en première année de Licence (L1). <br> <br>
+                <i class="fa-solid fa-envelope"></i> youribogila@gmail.com <br>
+                <i class="fa-solid fa-phone"></i> 0340296590
+                </p>
+            </div>
+            
+            
+        </section>
+
+        <br>
+        <section id="activite">
+            <h2>Activité:</h2>
+            <p> <b><i>♣ Mars 2022:</i></b> One-Hit a participé à la première édition de l'évènement <b><span style="color: #FFC727;">EmiHack</span></b> organisé par l'EMIT</p>
+        </section>
+
+        
+
+        <section id="competence">
+            <h2>Curriculum Vitae des membres:</h2>
+            <div class="mamicomp">
+                <p><img src="Image/Mami.jpg" alt="" class="mamimg">
+                 <span class="maminom">RAHARIVONY Mamilalaina Joel</span></p><br><br><br><br><hr>
+                 <ul><h3> <u>Profils:</u> </h3>
+                    <li>Date et lieu de naissance: 07 Janvier 2003</li>
+                    <li>Adresse: Antanifotsy IV Talatamaty Fianarantsoa</li>
+                    <li>Nationalité: Malagasy</li>
+                 </ul>
+                 <ul><h3> <u>Diplome et certificat:</u></h3>
+                    <li>Diplome du Baccalaureat</li>
+                    <li>Certificat en cryptage</li>
+                    <li>Certificat d'organisateur du Gamin' Party</li>
+                 </ul>
+                 <ul> <h3><u>Connaissance en informatique</u>:</h3>
+                    <li> <b>Outils Graphique</b>: Adobe Photoshop, LightX</li>
+                    <li><b>Outils Bureautique</b>: MS Access, MS Word, MS Excel, MS PowerPoint</li>
+                    <li><b>Language</b>: HTML, CSS, Python, JavaScript, PHP, Java</li>
+                    <li>Develeppeur Full-Stack</li>
+                </ul>
+                <ul>
+                    <h3><u>Connaissance linguistiques</u>:</h3>
+                    <li>Français: Parler et écrit (bien)</li>
+                    <li>Anglais: Parler et écrit (bien)</li>
+                </ul>
+
+            </div>
+            <div class="mamicomp">
+                <p><img src="Image/Bogila.jpg" alt="" class="mamimg">
+                <span class="bogilanom">NAMBININTSOA Nourah Michael</span></p><br><br><br><br><hr>
+                <ul><h3><u>Profils:</u></h3>
+                    <li>Date et lieu de naissance : 21 Aout 2004 </li>
+                    <li>Adresse : Antanifotsy IV Talatamaty Fianarantsoa</li>
+                    <li>Nationalité: Malagasy</li>
+                </ul>
+                <ul><h3><u>Diplome:</u></h3>
+                    <li>Diplome du baccalaureat</li>
+
+                </ul>
+                <ul> <h3><u>Connaissance en informatique</u>:</h3>
+                    <li> <b>Outils Graphique</b>: Adobe Photoshop, Kinemaster, PicsArt</li>
+                    <li><b>Outils Bureautique</b>: MS Access, MS Word, MS Excel, MS PowerPoint</li>
+                    <li><b>Language</b>: HTML, CSS, Python, JavaScript</li>
+                    <li>Developpeur Front-end</li>
+                </ul>
+                <ul>
+                    <h3><u>Connaissance linguistiques</u>:</h3>
+                    <li>Français: Parler et écrit (bien)</li>
+                    <li>Anglais: Parler et écrit (bien)</li>
+                </ul> <br><br>
+
+            </div>
+
+
+        </section>
+
+
+        <section id="forme">
+            <h2>Formulaire de recrutement :</h2>
+            <div id="form">
+                <form action="Inscription" method="post">
+                    <fieldset>
+                        <legend><strong> INSCRIPTION</strong></legend>
+                        <table style="padding: 20px;">
+                            <tr>
+                                <td align="right" style="padding: 10px;" ><label for="Nom">Nom : </label></td>
+                                <td style="padding: 10px;"><input type="text" placeholder="Votre nom..." class="inpText"></td>
+                            </tr>
+                            <tr>
+                                <td align="right" style="padding: 15px;"><label for="Prenom">Prénom :</label></td>
+                                <td style="padding: 10px;"><input type="text" placeholder="Votre prénom..." class="inpText"></td>
+                            </tr>
+                            <tr>
+                                <td align="right" style="padding: 15px;"><label for="sexe">Sexe :</td>
+                                <td style="padding: 10px;"><li style="list-style-type: none;"><input type="radio" name="sex" value="Homme">Homme </li>
+                                    <li style="list-style-type: none;"><input type="radio" name="sex" value="Femme">Femme </li></td>
+                            </tr>
+                            <tr>
+                                <td align="right" style="padding: 15px;"><label for="e-mail">E-mail:</label></td>
+                                <td style="padding: 10px;"><input type="email" name="" id="" placeholder="Votre E-gmail..." class="inpText"></td>
+                            
+                            </tr>  
+                            <tr>
+                                <td align="right" style="padding: 10px;"><label for="Nation">Nationalité:</label></td>
+                                <td style="padding: 10px;"><select name="" class="inpTexte">
+                                    <option value="Mada">Malgache</option>
+                                    <option value="Français">Français</option>
+                                    <option value="EU">Americain</option>
+                                    <option value="Chine">Anglais</option>
+                                    <option value="Japon">Asiatique</option>
+                                    <option value="Afrique">Africain</option>
+                                    <option value="Austalie">Australien</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right" style="padding: 10px;"><label for="Nation">Language préferé:</label></td>
+                                <td style="padding: 10px;"><select name="" class="inpTexte">
+                                    <option value="Mada">JavaScript</option>
+                                    <option value="Français">PHP</option>
+                                    <option value="EU">Java</option>
+                                    <option value="Chine">Ruby</option>
+                                    <option value="Japon">Perl</option>
+                                    <option value="Austalie">Autres...</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="" id="val" onclick="getValue()">Envoyer ►</a></td>
+                            </tr>
+                        
+                        </table>
+                    </fieldset>
+                    
+                    <br>
+                    
+    
+                    <script>
+                        function getValue(){
+                            alert("Inscription Envoyer")
+                        }
+                    </script>
+    
+                </form>   
+                    
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h1 class="pop">One hit</h1>
+        <div class="ico"> 
+            
+            <i class="fa-solid fa-hand-point-right" id="maing"></i>
+            <i class="fa-solid fa-hand-point-left" id="maind"></i>
+            <p>
+                <i class="fa-brands fa-facebook"> </i> One-Hit Official<br>
+                <i class="fa-brands fa-instagram"> </i> One-Hit now <br>
+                <i class="fa-brands fa-whatsapp"></i> Hit you'brain
+            </p>
+            
+        </div>
+
+    </footer>
+</body>
+</html>

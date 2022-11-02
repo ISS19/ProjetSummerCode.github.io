@@ -1,0 +1,297 @@
+﻿body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+
+
+
+
+/*********************************Lohan'ny fandeany********************************/
+h1{
+    color: rgb(26, 21, 21);
+}
+.gif{
+    width: 700px;
+    height: 600px;
+}
+.gif2{
+    width: 600px;
+    height: 600px;
+}
+.top{
+    position: fixed;
+    background-color: whitesmoke;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 110px;
+}
+a{
+    text-decoration: none;
+    margin-right: 70px;
+    color: black;
+    font-size: 18px;
+}
+header{
+    padding-top: 80px;
+    background-position: bottom;
+    height: 597px;
+    border: solid transparent;
+}
+.o{
+    float: left;
+    margin-top: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+.hit{
+    font-size: 80px;
+}
+nav1{
+    float: left;
+    margin-left: 40px;
+}
+.nav{
+    float: right;
+    margin-top: 44px;
+}
+
+.cercle{
+    position: absolute;
+    top: 50vh;
+    left: 30vh;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FFC727;
+    border-radius: 50px;
+    transform-origin: top left;
+    transform: scale(0) rotate(0) translate(-50%,-50%);
+    animation: cercle 7s ease-in forwards infinite;
+}
+.cercle:nth-child(2n){
+    border-color: #555555;
+}
+.cercle:nth-child(2){
+    animation-delay: 2s;
+    left: 75vw;
+    top: 50vh;
+}
+.cercle:nth-child(3){
+    animation-delay: 4s;
+    left: 60vw;
+    top: 30vh;
+}
+.cercle:nth-child(4){
+    animation-delay: 6s;
+    left: 30vw;
+    top: 65vh;
+}
+.cercle:nth-child(5){
+    animation-delay: 8s;
+    left: 84vw;
+    top: 70vh;
+}
+.cercle:nth-child(6){
+    animation-delay: 10s;
+    left: 20vw;
+    top: 30vh;
+}
+
+@keyframes cercle {
+    from{
+        transform: scale(0) rotate(0deg) translate(-50%, 50%);
+        opacity: 1;
+    } 
+    to{
+        transform: scale(20) rotate(360deg) translate(-50%, -50%);
+        opacity: 0;
+    }
+    
+}
+
+/********************************Vatan'ny fandeany********************************/
+
+                    /******A propos******/
+.membre{
+    float: left;
+    margin-left: 140px;
+    width: 310px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mami{
+    width: 290px;
+    height: 350px;
+    border-radius: 250px;
+}
+.bogila{
+    width: 310px;
+    height: 350px;
+    border-radius: 250px;
+}
+
+#mail{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.equipe{
+    float: left;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+#apropos{
+    padding-top: 110px;
+    background: linear-gradient(0deg, whitesmoke, whitesmoke, white);
+    height: 660px;
+    border-radius: 30px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-left: 10px;
+    color: grey;
+}
+                     /****************Activité*****************/
+#activite{
+    height: 120px;
+    border: solid transparent;
+    padding-top: 110px;
+}
+
+
+                    /******************Compétence****************/
+#competence{
+    padding-top: 110px;
+    height: 650px;
+}
+.mamicomp{
+    float: left;
+    width: 500px;
+    margin-left: 120px;
+    background-color: whitesmoke;
+    border: solid transparent;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.mamimg{
+    width: 70px;
+    height: 70px;
+    border-radius: 202px;
+    float: left;
+    margin-left: 10px;
+}
+.maminom{
+    float: right;
+    margin-top: 27px;
+    margin-right: 190px;
+}
+.bogilanom{
+    float: right;
+    margin-top: 27px;
+    margin-right: 185px;
+}
+
+
+/****************************************Formulaire****************************************/
+
+
+
+fieldset{
+    width: 280px;
+    margin-left: 35%;
+    border-radius: 30px;
+    border: 2px inset #FFC727;    
+}
+legend{
+    margin-left: 10%;
+    color: #FFC727;
+    font-size: 30px;
+}
+option{
+    color: #000000;
+}
+.inpText{
+    padding: 10px;
+}
+.inpTexte{
+    padding: 10px;
+    width: 187px;
+}
+#val{
+    position: relative;
+    overflow: hidden;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    font-family: poppins;
+    font-weight: 900;
+    cursor: pointer;
+    color:#000000;
+    z-index: 0;
+    border: 1px inset #FFC727;
+    text-decoration: none;
+    line-height: 40px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+#val:hover:before{
+    top: 0;
+    border-radius: 0;
+}
+#val:before{
+    content:"";
+    position: absolute;
+    top:60px;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFC727;
+    border-radius: 50% 50% 0 0;
+    z-index: -1;
+    transition: all .5s;
+}
+#val:hover{
+    color: #000000;
+    transition: .7s;
+}
+.ico i{
+    color: #FFC727;
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    background-color: whitesmoke;
+    bottom: 0px;
+    height: 300px;
+    border: solid transparent;
+
+}
+.pop{
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: poppins;
+}
+#forme{
+    padding-top: 110px;
+}
+
+#maing{
+    float: left;
+    font-size: 100px;
+    margin-top: -80px;
+    margin-left: 30%;
+}
+#maind{
+    float: right;
+    font-size: 100px;
+    margin-top: -80px;
+    margin-right: 30%;
+
+}
